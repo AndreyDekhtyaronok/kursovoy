@@ -1,0 +1,133 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #202020;
+    max-width: 100%;
+    padding: 24px 0 24px 0;
+}
+
+.pad {
+    padding: 38px 0 24px 0;
+}
+
+.container > div {
+    display: flex;
+    align-items: center;
+}
+
+.firstname {
+    margin-left: 820px; /* Регулирует расстояние между кнопкой и текстом */
+    color: #e2e2e2;
+    font-size: 30px;
+}
+
+.btn-primary {
+    margin-right: 100px; /* Регулирует расстояние между кнопкой и текстом */
+}
+
+.container button {
+    background: #e2e2e2;
+    color: #121212;
+    padding: 18px 32px;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 2.1px;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+}
+
+.container button:hover {
+    background: transparent;
+    color: #e2e2e2;
+    border: 1px solid black;
+    transition: 0.5s ease-in-out;
+}
+
+@media screen and (min-width: 720px) and (max-width: 980px) {
+    .section-2-grid .grid-2 h1 {
+        width: auto;
+        font-size: 20px;
+    }
+    .section-2-grid .grid-2 p {
+        width: auto;
+        font-size: 10px;
+        margin: 20px 0 20px 0;
+        line-height: normal;
+    }
+    .section-2-grid .grid-2 button {
+        font-size: 10px;
+        padding: 9px 16px;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 720px) {
+    .section-2-grid {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .section-2-img {
+        width: 100%;
+        height: auto;
+    }
+    .section-2-grid .grid-2 {
+        margin-left: 20px;
+    }
+    .section-2-grid .grid-2 h1 {
+        width: auto;
+        font-size: 25px;
+    }
+    .section-2-grid .grid-2 p {
+        width: auto;
+        font-size: 15px;
+        margin: 10px 0 10px 0;
+    }
+    .section-2-grid .grid-2 button {
+        font-size: 14px;
+        padding: 9px 16px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .section-2-grid {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .section-2-grid .grid-2 {
+        margin-left: 20px;
+    }
+    .section-2-grid .grid-2 h1 {
+        width: auto;
+        font-size: 25px;
+    }
+    .section-2-grid .grid-2 p {
+        width: auto;
+        font-size: 15px;
+        margin: 10px 0 10px 0;
+    }
+    .section-2-grid .grid-2 button {
+        font-size: 14px;
+        padding: 9px 16px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .firstname {
+        margin-left: 0; /* Убираем отступ слева */
+        text-align: center; /* Выравниваем по центру */
+        margin-top: 20px; /* Добавляем отступ сверху */
+    }
+
+    .modal-content {
+        padding: 20px; /* Увеличиваем внутренний отступ */
+    }
+
+    .modal-content h1 {
+        font-size: 20px; /* Уменьшаем размер заголовка */
+    }
+
+    .modal-content p {
+        font-size: 14px; /* Уменьшаем размер текста */
+        margin: 10px 0; /* Уменьшаем внешний отступ текста */
+    }
+}

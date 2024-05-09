@@ -1,0 +1,11 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.navbar .container-fluid img {
+    width: 50px; /* Задайте желаемую ширину */
+    height: auto; /* Автоматическое вычисление высоты */
+    margin-right: 10px; /* Отступ справа, если нужно */
+}

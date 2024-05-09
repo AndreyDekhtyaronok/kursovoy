@@ -1,0 +1,30 @@
+<myElement>
+    <text>
+        <![CDATA[
+      <section class="section-8" id="section-8">
+        <div class="section-8-grid-1">
+          <div class="h">
+            <h1>Ferrari</h1>
+          </div>
+          <button class="button" id="aboutUsButton">О нас</button>
+          <div class="text">
+            <p>
+              Ferrari N.V. – Холдинговая компания – Компания в соответствии с законодательством Нидерландов, имеющая официальное местонахождение в Амстердаме, Нидерланды, и корпоративный адрес по адресу: Via Abetone Inferiore No. 4, I-41053 Маранелло (Миссури), Италия, зарегистрированная в торговом реестре Нидерландов под номер 64060977
+              <br>
+              Ferrari S.p.A. — компания, зарегистрированная по итальянскому законодательству, зарегистрированная по адресу: Via Emilia Est № 1163, Модена, Италия, Регистр компаний Модены, номер плательщика НДС и налога 00159560366, уставный капитал в размере 20 260 000 евро.          </p>
+            <p class="fine-print">Copyright 2024 &copy; - All rights reserved</p>
+          </div>
+          <div id="aboutUsModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h2>О нас</h2>
+              <p>контактный телефон +39 0536 949713</p>
+              <p>instagram  @Ferrari</p>
+              <div id="map"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    ]]>
+    </text>
+</myElement>
